@@ -3,44 +3,87 @@
   <head>
     <title>NAVER_AI</title>
     <meta charset="UTF-8" />
+    <style>
+      #grid {
+        display: grid;
+        grid-template-columns: 200px 0.5fr;
+      }
+      .title_1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 400px;
+        margin-top: 200px;
+        font-size: 50px;
+      }
+      h2 {
+        border-top: 5px black solid;
+        padding-top: 30px;
+      }
+
+      .body_1 {
+        padding: 10px;
+        padding-left: 0px;
+        margin-bottom: 50px;
+      }
+      .body_2 {
+        margin-bottom: 30px;
+      }
+      .body_3 {
+        margin-top: 25px;
+        margin-bottom: 50px;
+      }
+    </style>
   </head>
   <body>
-    <h1 align="center">NAVER AI Colloquium</h1>
-
-    <h2>일시 및 장소</h2>
-    <p>
-      <strong>2019. 04. 05</strong>(금) <strong>09:30 ~ 18:00</strong> <br />
-      <strong>그랜드 인터컨티넨탈 호텔 서울 파르나스 그랜드볼룸</strong>(5층)
+    <p class="title_1">
+      <strong>NAVER</strong> &nbsp;&nbsp;AI &nbsp;<strong>Colloquium</strong>
     </p>
 
-    <h2>스피커 및 주요내용</h2>
-    <p>
-      네이버의 AI 기술을 만들어가는<br />
-      각 분야 별 현업 담당자 및 산학 연구진을 초청하여<br />
-      네이버가 해외 컨퍼런스를 통해 발표한 연구 결과 및<br />
-      네이버 서비스에 포함된 기술에 대해 이야기 나눌 예정입니다.
-    </p>
+    <div>
+      <h2>일시 및 장소</h2>
+      <p class="body_1" style="line-height: 1.5">
+        <strong>2019. 04. 05</strong>(금) <strong>09:30 ~ 18:00</strong> <br />
+        <strong>그랜드 인터컨티넨탈 호텔 서울 파르나스 그랜드볼룸</strong>(5층)
+      </p>
+    </div>
 
-    <ul>
-      <li>Machine Learning</li>
-      <li>Natural Language Processing</li>
-      <li>Search Intelligence</li>
-      <li>Recommendation</li>
-      <li>Vision & Video</li>
-      <li>Visual Question Answering</li>
-      <li>Speech</li>
+    <div>
+      <h2>스피커 및 주요내용</h2>
+      <p class="body_2" style="line-height: 1.5">
+        네이버의 AI 기술을 만들어가는<br />
+        각 분야 별 현업 담당자 및 산학 연구진을 초청하여<br />
+        네이버가 해외 컨퍼런스를 통해 발표한 연구 결과 및<br />
+        네이버 서비스에 포함된 기술에 대해 이야기 나눌 예정입니다.
+      </p>
+    </div>
+
+    <div id="grid">
+      <div>&middot;Machine Learning</div>
+      <div>&middot;Natural Language Processing</div>
+      <div>&middot;Search Intelligence</div>
+      <div>&middot;Recommendation</div>
+      <div>&middot;Vision & Video</div>
+      <div>&middot;Visual Question Answering</div>
+      <div>&middot;Speech</div>
       <br />
-    </ul>
-    발표 아젠다 및 일정은 등록페이지를 통해 확인하실 수 있습니다. <br />
-    (등록 페이지는 3월 11일(월) 13:00에 오픈 예정)
+    </div>
 
-    <h2>참가신청 안내</h2>
-    <p>
-      - 참가신청은 3월 13일(수) 13:00 - 3월 19일(화) 13:00까지
-      naveraiconf.naver.com에서 진행됩니다.<br />
-      - 좌석이 한정되어 있어 우선 신청 후 참서자는 별도 선정하여
-      안내드리겠습니다.<br />
-      - 본 콜로키움 관련 문의는 naveraiconf@naver.com으로 보내주시기 바랍니다.
-    </p>
+    <div>
+      <p class="body_3" style="line-height: 1.5">
+        발표 아젠다 및 일정은 등록페이지를 통해 확인하실 수 있습니다. <br />
+        (등록 페이지는 3월 11일(월) 13:00에 오픈 예정)<br />
+      </p>
+    </div>
+
+    <div>
+      <h2>참가신청 안내</h2>
+      <p style="line-height: 2">
+        - 참가신청은 3월 13일(수) 13:00 - 3월 19일(화) 13:00까지
+        naveraiconf.naver.com에서 진행됩니다.<br />
+        - 좌석이 한정되어 있어 우선 신청 후 참서자는 별도 선정하여
+        안내드리겠습니다.<br />
+        - 본 콜로키움 관련 문의는 naveraiconf@naver.com으로 보내주시기 바랍니다.
+      </p>
+    </div>
   </body>
 </html>
