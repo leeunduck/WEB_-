@@ -1,6 +1,7 @@
 #grid {
   display: grid;
   grid-template-columns: 200px 0.5fr;
+  gap: 8px;
 }
 .title_1 {
   display: flex;
@@ -29,3 +30,13 @@ h2 {
   margin-top: 25px;
   margin-bottom: 50px;
 }
+
+/* .circle {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  border: 3px solid green;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+} */
