@@ -1,0 +1,45 @@
+body {
+  background: #c8e6c9;
+}
+#wrap {
+  width: 1000px;
+  height: 900px;
+  margin: 0 auto; /*블록구조 가운데 정렬*/
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+#header {
+  width: 1000px;
+  height: 100px;
+  line-height: 100px;
+  background: #2e7d32;
+}
+#nav {
+  width: 1000px;
+  height: 100px;
+  line-height: 100px;
+  background: #388e3c;
+}
+#side {
+  width: 300px;
+  height: 600px;
+  line-height: 600px;
+  background: #43a047;
+  float: left;
+}
+#contents {
+  width: 700px;
+  height: 600px;
+  line-height: 600px;
+  background: #4caf50;
+  float: left;
+}
+#footer {
+  width: 1000px;
+  height: 100px;
+  line-height: 100px;
+  background: #66bb6a;
+  float: left;
+}
