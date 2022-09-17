@@ -1,4 +1,9 @@
 a {
   text-decoration: none;
   color: black;
+  padding-right: 10px;
+}
+.menu {
+  text-align: right;
+  margin-top: 20px;
 }
