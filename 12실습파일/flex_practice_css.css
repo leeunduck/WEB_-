@@ -1,0 +1,20 @@
+.container {
+  background: azure;
+  height: 100vh;
+  display: flex;
+  flex-direction: row; /* row-reverse: 오른쪽에서 왼쪽, column: 위에서 아래, column-reverse: 아래에서 위로 */
+  flex-wrap: wrap; /* wrap: 박스들이 꽉 차게 되면 자동적으로 밑으로 내려간다, wrap-reverse: 밑에서 위로 wraping 된다 */
+  flex-flow: ; /* flex-direction과 flex-wrap을 합친 것 */
+  justify-content: space-around; /* flex-start, flex-end: 반대부터 시작 ,center, space-around, space-evenly, space-between */
+  align-items: center; /* 반대 축에서 박스를 설정하는 속성 값: center, baseline */
+  align-content: space-around;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border: 1px solid black;
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-self: center;
+}
