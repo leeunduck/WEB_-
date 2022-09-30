@@ -1,0 +1,17 @@
+.container {
+  width: 1000px;
+  display: flex;
+  background: red;
+  height: 500px;
+}
+.container_2 {
+  width: 1000px;
+  display: flex;
+  background: navy;
+  height: 500px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
