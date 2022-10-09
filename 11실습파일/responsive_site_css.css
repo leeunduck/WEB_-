@@ -207,6 +207,14 @@
 }
 
 /* 컨텐츠 영역 */
+#contents {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 800px;
+  flex-wrap: wrap;
+}
 .column {
   padding: 15px;
   border-bottom: 1px solid #dbdbdb;
