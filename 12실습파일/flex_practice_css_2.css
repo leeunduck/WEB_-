@@ -1,17 +1,31 @@
-.container {
-  width: 1000px;
-  display: flex;
-  background: red;
-  height: 500px;
+body {
+  box-sizing: border-box;
 }
-.container_2 {
-  width: 1000px;
+.container {
+  height: 90vh;
   display: flex;
-  background: navy;
-  height: 500px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100vh;
+  background-color: gray;
 }
 .box {
-  width: 100px;
-  height: 100px;
+  flex-basis: 0;
+}
+.item-a {
+  background-color: beige;
+  flex-grow: 1;
+  align-self: flex-start;
+}
+
+.item-b {
+  background-color: blue;
+  flex-grow: 2;
+  align-self: center;
+}
+.item-c {
   background-color: aqua;
+  flex-grow: 1;
+  align-self: flex-end;
 }

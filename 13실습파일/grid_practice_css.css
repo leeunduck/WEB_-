@@ -1,0 +1,33 @@
+.container {
+  box-sizing: border-box;
+  font-size: 2rem;
+  text-align: center;
+  width: 1536px;
+  height: 864px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 100px auto 50px;
+  grid-template-areas:
+    "header header"
+    "main side"
+    "footer footer";
+}
+.header {
+  color: white;
+  background-color: black;
+  grid-area: header;
+}
+.main {
+  background-color: azure;
+  grid-area: main;
+}
+.aside {
+  background-color: orange;
+  grid-area: side;
+}
+.footer {
+  color: white;
+  background-color: black;
+  grid-area: footer;
+}
