@@ -1,33 +1,40 @@
-.container {
-  box-sizing: border-box;
-  font-size: 2rem;
-  text-align: center;
-  width: 1536px;
-  height: 864px;
-  margin: 0;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: 100px auto 50px;
-  grid-template-areas:
-    "header header"
-    "main side"
-    "footer footer";
+* {
+  border: 1px solid black;
 }
-.header {
-  color: white;
-  background-color: black;
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 10px;
+  grid-template-areas:
+    "header header header"
+    "sidebar main main"
+    "footer footer footer";
+}
+.item1 {
   grid-area: header;
 }
-.main {
-  background-color: azure;
+.item2 {
+  grid-area: header;
+}
+.item3 {
+  grid-area: header;
+}
+.item4 {
+  grid-area: sidebar;
+}
+.item5 {
   grid-area: main;
 }
-.aside {
-  background-color: orange;
-  grid-area: side;
+.item6 {
+  grid-area: main;
 }
-.footer {
-  color: white;
-  background-color: black;
+.item7 {
+  grid-area: footer;
+}
+.item8 {
+  grid-area: footer;
+}
+.item9 {
   grid-area: footer;
 }
